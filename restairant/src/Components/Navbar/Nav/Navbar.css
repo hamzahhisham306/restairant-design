@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color:var( --color-white) ;
+}
+
+.logo h1{
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 130%;
+letter-spacing: 0.04em;
+}
+.nav__list{
+    display: flex;
+}
+.nav__list li{
+    margin-left: 30px;
+    list-style-type: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+
+}
+.register{
+    display: flex;
+}
+.register p{
+    margin-left: 50px;
+}
+.register {
+    position: relative;
+};
+
+.register h5{
+
+ border-right: 1px solid  var( --color-white);
+}

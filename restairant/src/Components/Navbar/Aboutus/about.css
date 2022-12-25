@@ -1,0 +1,48 @@
+.about{
+    background-image: url(../../../assets/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about h1{
+    color: var(--color-golden);
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 130%;
+
+text-align: right;
+letter-spacing: 0.03em;
+}
+.savermake img{
+    height: 600px;
+    padding: 40px;
+
+}
+.our__history h1{
+    text-align: left;
+}
+.about p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;    
+    color: #AAAAAA;
+}
+
+.about__us{
+    text-align: right;
+}
+.about button{
+    padding: 20px;
+    margin-top: 30px;
+    background-color: var(--color-golden);
+    font-weight: 700;
+}

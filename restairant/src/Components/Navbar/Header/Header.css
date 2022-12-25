@@ -26,7 +26,7 @@ height: 234px;
 font-family: 'Cormorant Upright';
 font-style: normal;
 font-weight: 700;
-font-size: 90px;
+font-size: 89px;
 line-height: 130%;
 letter-spacing: 0.04em;
 text-transform: capitalize;
@@ -48,5 +48,5 @@ color: #AAAAAA;
     padding: 20px;
     background-color: var(--color-golden);
     font-weight: 700;
-    
+
 }

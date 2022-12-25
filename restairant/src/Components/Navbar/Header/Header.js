@@ -7,8 +7,8 @@ function Header() {
       <div className='header__text'>
         <h3>Chase The New Flavour</h3>
         <h1>The key To Fine Dining</h1>
-        <p>Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
-        <button>Explore Menu</button>
+        <p>Sit tellus lobartis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
+        <button>ExpLore Menu</button>
       </div>
       <div className='header__image'>
         <img src={Welcome} alt='welcome'/>

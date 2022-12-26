@@ -1,6 +1,6 @@
 import React from 'react';
 import "./special.css";
-import special from '../../../assets/3596233 1.png';
+import special from '../../assets/3596233 1.png';
 function Special() {
   return (
     <div className='special section__padding'>

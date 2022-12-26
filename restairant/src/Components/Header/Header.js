@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import Welcome from '../../../assets/welcome.png';
+import Welcome from '../../assets/welcome.png';
 function Header() {
   return (
     <div className='header section__padding'>

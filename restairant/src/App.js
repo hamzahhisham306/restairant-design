@@ -1,8 +1,9 @@
 import './App.css';
-import About from './Components/Navbar/Aboutus/About';
-import Header from './Components/Navbar/Header/Header';
-import Navbar from './Components/Navbar/Nav/Navbar';
-import Special from './Components/Navbar/Special/Special';
+import About from './Components/Aboutus/About';
+import Chef from './Components/Chef/Chef';
+import Header from './Components/Header/Header';
+import Navbar from './Components/Nav/Navbar';
+import Special from './Components/Special/Special';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Header/>
     <About/>
     <Special/>
+    <Chef/>
     </div>
   );
 }

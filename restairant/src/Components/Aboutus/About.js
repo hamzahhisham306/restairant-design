@@ -1,6 +1,5 @@
 import React from 'react'
-import knives from '../../../assets/savernake-knives-f4jl2ezowuM-unsplash 2.png';
-import G from '../../../assets/G.png';
+import knives from '../../assets/savernake-knives-f4jl2ezowuM-unsplash 2.png';
 import './about.css';
 function About() {
   return (

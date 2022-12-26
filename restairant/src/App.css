@@ -1,14 +1,14 @@
 .section__padding{
   padding: 4rem 6rem;
 }
-/* 
+
 .app__bg {
   background: url('./assets/bg.png');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
   background-attachment: fixed;
-} */
+} 
 body{
   background-color:  #040404;
   height: 100%;

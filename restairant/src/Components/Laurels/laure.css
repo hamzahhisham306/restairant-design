@@ -1,0 +1,72 @@
+.Laurel{
+    background-image: url('../../assets/BG\ \(1\).png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    align-items: center;
+}
+.laurel__image{
+    margin-left: 100px;
+}
+.laurel__image img{
+    height: 600px;
+}
+.box__laurel{
+    display: flex;
+    margin-bottom: 60px;
+    margin-left: 30px;
+}
+.box__laurel h1{
+  padding-right: 30px;
+}
+.list__laurel{
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+    margin-bottom: 50px;
+}
+h3.title{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #FFFFFF;
+}
+h1.title{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 130%;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #DCCA87;
+}
+.text__laurel h3{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #DCCA87;
+}
+.text__laurel p{
+font-family: 'Open Sans';
+font-style: normal;
+line-height: 175%;
+color: #AAAAAA;
+}

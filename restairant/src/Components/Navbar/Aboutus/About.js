@@ -1,8 +1,13 @@
 import React from 'react'
 import knives from '../../../assets/savernake-knives-f4jl2ezowuM-unsplash 2.png';
+import G from '../../../assets/G.png';
 import './about.css';
 function About() {
   return (
+    <div className='main__about'>
+      {/* <div className="app__aboutus-overlay flex__center">
+      <img src={G} alt="G_overlay" />
+    </div> */}
     <div className='about section__padding'>
        <div className='about__us'>
         <h1>About Us</h1>
@@ -17,6 +22,7 @@ function About() {
         <p>Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.</p>
         <button>Know More</button>
        </div>
+    </div>
     </div>
   )
 }

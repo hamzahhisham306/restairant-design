@@ -1,0 +1,89 @@
+.special{
+    color: #FFFF;
+}
+
+.text-c{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.special__section{
+ display: flex;
+ justify-content: center;
+ /* justify-content: space-evenly; */
+
+}
+.wine-text{
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+}
+.wine-text h3{
+    margin-right:100px ;
+}
+.wine-text h4{
+    margin-left:70px;
+}
+.Wine p{
+    margin-left: 50px ;
+    padding-top: 10px;
+    color: gray;
+}
+.wine-text::after{
+position: absolute;
+content: "";
+width: 119px;
+right: 0;
+height: 1px;
+background-color: #FFFF;
+color: #FFFF;
+top: 10px;
+left: 50%;
+}
+.Wine h1{
+    text-align: center;
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+}
+.Wine{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+h1.text-c{
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 130%;
+
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color:var(--color-golden);
+}
+h3.text-c{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color: var(--color-white);
+}
+.wine-text h3{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: var(--color-golden);
+}

@@ -22,8 +22,27 @@ letter-spacing: 0.03em;
 .savermake img{
     height: 600px;
     padding: 40px;
-
 }
+.main__about{
+    position: relative;
+}
+.app__aboutus-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+.app__aboutus-overlay img{
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
 .our__history h1{
     text-align: left;
 }
@@ -45,4 +64,8 @@ letter-spacing: 0.03em;
     margin-top: 30px;
     background-color: var(--color-golden);
     font-weight: 700;
+
+}
+.G{
+    z-index: -1000;
 }

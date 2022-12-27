@@ -1,6 +1,8 @@
 import './App.css';
 import About from './Components/Aboutus/About';
 import Chef from './Components/Chef/Chef';
+import Find from './Components/Findus/Find';
+import Footer from './Components/Footer/Footer';
 import Gallery from './Components/Gallery/Gallery';
 import Header from './Components/Header/Header';
 import Laurel from './Components/Laurels/Laurel';
@@ -18,6 +20,8 @@ function App() {
     <Video/>
     <Laurel/>
     <Gallery/>
+    <Find/>
+    <Footer/>
     </div>
   );
 }

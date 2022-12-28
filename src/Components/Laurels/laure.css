@@ -70,3 +70,13 @@ font-style: normal;
 line-height: 175%;
 color: #AAAAAA;
 }
+
+@media screen and (max-width:1000px) {
+    .Laurel{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Laurel img{
+      margin-right: 90px;
+    }
+}

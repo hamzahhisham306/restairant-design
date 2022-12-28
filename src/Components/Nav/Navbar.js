@@ -9,7 +9,7 @@ function Navbar() {
       <ul className='nav__list'>
         <li>Home</li>
         <li>Pages</li>
-        <li>Contact Us</li>
+        <li>Contact </li>
         <li>Blog</li>
         <li>Landing</li>
       </ul>

@@ -88,3 +88,9 @@ text-transform: capitalize;
 font-feature-settings: 'tnum' on, 'lnum' on;
 color: var(--color-golden);
 }
+
+@media screen and (max-width:1100px) {
+    .special__section{
+        flex-wrap: wrap;
+    }
+}

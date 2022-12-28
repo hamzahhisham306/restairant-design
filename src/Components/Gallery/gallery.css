@@ -55,3 +55,13 @@ letter-spacing: 0.04em;
     margin-top: 30px;
 
 }
+
+@media screen and (max-width:1475px) {
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery__images{
+        padding-top: 50px;
+        flex-wrap: wrap;
+    }
+}

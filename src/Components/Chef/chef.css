@@ -61,3 +61,18 @@ letter-spacing: 0.04em;
 
 color: #AAAAAA;
 }
+
+@media screen and (max-width:1300px) {
+    .chef{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .chef h1{
+        font-size: 35px;
+    }
+    .chef p{
+        width: 100%;
+    }
+   
+}
